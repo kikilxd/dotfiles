@@ -228,6 +228,7 @@ exec --no-startup-id telegram-desktop -startintray
 exec --no-startup-id picom -b
 exec --no-startup-id discord layout tabbed
 exec --no-startup-id spotify layout tabbed
+exec --no-startup-id picom -b
 
 
 client.focused          #00000000 #00000000 #D8DEE9 #00000000   #00000000
