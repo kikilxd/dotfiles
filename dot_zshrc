@@ -102,6 +102,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+<<<<<<< HEAD
 eval "$(starship init zsh)"
 # Created by `pipx` on 2024-09-25 12:56:46
 export PATH="$PATH:/home/kikil/.local/bin"
@@ -110,3 +111,9 @@ export PATH=$PATH:/home/kikil/.spicetify
 
 
 alias "cdkikiltest"="cd '/mnt/nvme/Programs/kikil-station/'"
+=======
+
+# Preferred editor for local and remote sessions
+eval "$(starship init zsh)"
+export PATH=/home/kikil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+>>>>>>> 01e8744 (hypr update)
